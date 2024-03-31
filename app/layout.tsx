@@ -1,5 +1,5 @@
 
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 
@@ -7,9 +7,14 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
+  manifest: "/manifest.json",
   title: "Notify",
   description: "A simple notification component for Next.js",
 };
+
+export const viewport: Viewport = {
+  themeColor: "#DE502C",
+}
 
 export default function RootLayout({
   children,
