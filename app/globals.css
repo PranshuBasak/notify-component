@@ -31,3 +31,12 @@ body {
     text-wrap: balance;
   }
 }
+
+
+.my-custom-button {
+  background: linear-gradient(90deg, rgba(157, 13, 61, 0.1) -10.64%, #DF522B 51.94%, rgba(199, 125, 44, 0.1) 116.51%);
+  box-shadow: 0px 1px 2px 0px #0000001F;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+}
